@@ -1,3 +1,4 @@
+
 # PM2ECGCN: Parallelized Spatial-Temporal Structures of Multi-Lead ECG with Graph Convolution Network for Multi-Center Cardiac Disease Diagnosis
 
 This codebase is the official implementation of "PM2ECGCN: Parallelized Spatial-Temporal Structures of Multi-Lead ECG with Graph Convolution Network for Multi-Center Cardiac Disease Diagnosis".
@@ -46,5 +47,5 @@ This work presents PM2ECGCN, a graph convolutional network framework with linear
 - Number of leads and their combinations.
 
 ## License
-ß
+
 This source code is released under the MIT license, includde [here](LICENSE).
