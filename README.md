@@ -3,13 +3,20 @@
 
 This codebase is the official implementation of "PM2ECGCN: Parallelized Spatial-Temporal Structures of Multi-Lead ECG with Graph Convolution Network for Multi-Center Cardiac Disease Diagnosis".
 
-## Paper Status
+## Project Status
 
-Currently, the paper is under peer-review. **We apologize for the inconvenience as we are unable release all implenmentation now for ensuring the authorships**.
+**Important Notice:** This work has been accepted by ESWA. This project's code is currently undergoing ethical approval processes (specifically, regarding patient data usage in model training).
+
+We understand the importance of transparency and appreciate your interest. While we're unable to release the full implementation at this time, we're actively working with our collaborators from hospital to secure approval.
+
+**Estimated Timeline:** We anticipate being able to make the code publicly available later this year (target release date: [2024]). We'll provide updates on this page as the approval process progresses.
+
+**In the meantime:** We appreciate your patience and understanding. Feel free to reach out with any questions you may have.
 
 ## Introduction
 
 This work presents PM2ECGCN, a graph convolutional network framework with linear inference complexity. It leverages parallelized multi-lead ECG spatial-temporal structures generated independently from multi-center data then trains collectively with domain generalization in feature-sharing manner. PM2ECGCN tackles challenges in modeling multi-lead dependencies, bridging isolated data, managing data heterogeneity, and reducing computation expenses.
+![FigureONE](https://image-oss-danielwangow.oss-cn-shanghai.aliyuncs.com/PM2ECGCN_1_ESWA.png)
 
 ## Requirements
 
@@ -28,7 +35,7 @@ This work presents PM2ECGCN, a graph convolutional network framework with linear
 - **SXMU-2k**: SXMU-2k contains 2,136 annotated ECG recordings with same labels following the SCP-ECG standard identical to PTB-XL. It was collected with approval from Ethics Committee. The data is still under review for public release, but it will be available in less than a year.
 
 **Preprocess for Simulation**: we construct sub-datasets by randomly allocating public dataset with different volumes and label distributions to mimic real-world multi-center scenarios under various configurations.
-  
+
 ## Benchmarking
 
 **1. Baselines:** To validate PM2ECGCN’s performance, we compare with several state-of-the-art approaches:
