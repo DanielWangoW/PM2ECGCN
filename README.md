@@ -1,17 +1,16 @@
+# Notice of PM2ECGCN
 
-# PM2ECGCN: Parallelized Spatial-Temporal Structures of Multi-Lead ECG with Graph Convolution Network for Multi-Center Cardiac Disease Diagnosis
+## Latest Information Updates
 
-This codebase is the official implementation of "PM2ECGCN: Parallelized Spatial-Temporal Structures of Multi-Lead ECG with Graph Convolution Network for Multi-Center Cardiac Disease Diagnosis".
+We sincerely appreciate your interest in our work and apologize for the delay schedule. *The review process for data disclosure has encountered numerous obstacles due to our partners’ data collation and sharing plan, as well as recent policy changes by local regulatory authorities.* Since we used real patient data, we cannot fully ensure that the work released do not involve concerns raised by the reviewers and we must respect the concerns of our partners. Unfortunately, I have no influence on the review process and, like anyone, can only wait and see. TWe are truly sorry for any inconvenience this may cause.
 
-## Project Status
+**We hope the review process for publicly available will proceed, allowing to release this work.**
 
-**Important Notice:** This work has been accepted by ESWA. This project's code is currently undergoing ethical approval processes (specifically, regarding patient data usage in model training).
+## Important Notice  
 
-We understand the importance of transparency and appreciate your interest. While we're unable to release the full implementation at this time, we're actively working with our collaborators from hospital to secure approval.
+This work has been accepted by ESWA. This project's dataset (SXMU-2k) and code are currently undergoing ethical approval processes.The methodology proposed in this work has been discussed in detail in the paper, if you are in a hurry you can reproduce directly. Feel free to reach out with any questions you may have.
 
-**Estimated Timeline:** We anticipate being able to make the code publicly available later this year (target release date: [2024]). We'll provide updates on this page as the approval process progresses.
-
-**In the meantime:** We appreciate your patience and understanding. Feel free to reach out with any questions you may have.
+For the SXMU-2k dataset, we have permission to use it, but at this stage, we are unable to distribute it in compliance. Therefore, if the dataset is essential for external validation, we can, under your authorization, use your model to test on this dataset and report the experimental results. We are willing to ensure your requests for intellectual property protection are met.
 
 ## Introduction
 
@@ -32,7 +31,7 @@ This work presents PM2ECGCN, a graph convolutional network framework with linear
 
 - [**PTBXL**](https://physionet.org/content/ptb-xl/1.0.1/): PTB-XL is the largest public dataset with 21,837 clinical 12-lead ECG recordings from 18,885 patients, 10 seconds in length at 100 Hz, which covers diverse pathologies.
 - [**ICBEB-2018**](http://2018.icbeb.org/Challenge.html): ICBEB comprise 6,877 ECG recordings of 6-60 seconds duration.
-- **SXMU-2k**: SXMU-2k contains 2,136 annotated ECG recordings with same labels following the SCP-ECG standard identical to PTB-XL. It was collected with approval from Ethics Committee. The data is still under review for public release, but it will be available in less than a year.
+- **SXMU-2k**: SXMU-2k contains 2,136 annotated ECG recordings with same labels following the SCP-ECG standard identical to PTB-XL. It was collected with approval from Ethics Committee. The data are still under review for public release.
 
 **Preprocess for Simulation**: we construct sub-datasets by randomly allocating public dataset with different volumes and label distributions to mimic real-world multi-center scenarios under various configurations.
 
