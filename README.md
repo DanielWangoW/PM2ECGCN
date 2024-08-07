@@ -2,15 +2,15 @@
 
 ## Latest Information Updates
 
-We sincerely appreciate your interest in our work and apologize for the delay schedule. *The review process for data disclosure has encountered numerous obstacles due to our partners’ data collation and sharing plan, as well as recent policy changes by local regulatory authorities.* Since we used real patient data, we cannot fully ensure that the work released do not involve concerns raised by the reviewers and we must respect the concerns of our partners. Unfortunately, I have no influence on the review process and, like anyone, can only wait and see. TWe are truly sorry for any inconvenience this may cause.
+We sincerely appreciate your interest in our work and apologize for the delay schedule. *The review process for data disclosure has encountered numerous obstacles due to our partners’ data collation and sharing plan, as well as recent policy changes by local regulatory authorities.* Since we used patient data, we cannot fully ensure that the work released do not involve concerns raised by the reviewers and we must respect the concerns of our partners. Unfortunately, I have no influence on the review process and, like anyone, can only wait and see. We are truly sorry for any inconvenience this may cause.
 
 **We hope the review process for publicly available will proceed, allowing to release this work.**
 
 ## Important Notice  
 
-This work has been accepted by ESWA. This project's dataset (SXMU-2k) and code are currently undergoing ethical approval processes.The methodology proposed in this work has been discussed in detail in the paper, if you are in a hurry you can reproduce directly. Feel free to reach out with any questions you may have.
+This work has been accepted by ESWA (Unfortunately, the hyperlink used to jump to this link is broken in published version. You can follow the project state in this repository...) This project's dataset (SXMU-2k) and models are currently undergoing ethical approval processes.The methodology proposed in this work has been discussed in detail in the paper, if you are in a hurry you can reproduce directly. Feel free to reach out with any questions you may have.
 
-For the SXMU-2k dataset, we have permission to use it, but at this stage, we are unable to distribute it in compliance. Therefore, if the dataset is essential for external validation, we can, under your authorization, use your model to test on this dataset and report the experimental results. We are willing to ensure your requests for intellectual property protection are met.
+For the SXMU-2k dataset, we have permission to use it, but at this stage, we are unable to distribute it in compliance. Therefore, if the dataset is essential for your external validation, we can, under your request and authorization, use your method to test on this dataset and report the experimental results to you. We are willing to ensure your requests for intellectual property protection are met.
 
 ## Introduction
 
